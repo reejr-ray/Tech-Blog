@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Learning_JavaScript</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="TechBlog\css\" />
+    <Folder Include="TechBlog\images\" />
+    <Folder Include="TechBlog\javascript\" />
+    <Folder Include="test-site\styles\" />
+    <Folder Include="test-site\images\" />
+    <Folder Include="test-site\scripts\" />
+  </ItemGroup>
+
+</Project>
