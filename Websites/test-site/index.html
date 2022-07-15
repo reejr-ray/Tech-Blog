@@ -1,10 +1,61 @@
 ﻿<!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="utf-8">
+    <title>My Test Page</title>
 </head>
 <body>
+    <img src="images/sittingSpiderman.jpg" alt="My Test Image">
+    <!--
+    an HTML tag is denoted by the classic <></> keywords. E.G. <p></p>, <head></head>, <html></html> are all tags.
+     - <p> would be an example of an opening tag.
+     - </p> is an example of a closing tag.
+     - "<p>This is a sample paragraph</p>" is an example of an HTML element.
+     Tags can have attributes attached to it. these attributes add information about the elements
+     - Attributes usually come in name/value pairs like name="value"
+     - If an attribute does not contain a value, it is just a marker or tag.
+     - - Logically equivalent to a boolean value that is true if the flag is present, and false otherwise.
+     - - for example, the "hidden" attribute does not check its value. It will work the same way with hidden="True" or hidden="lorem ipsum dolor".
+     -->
+    >
+    <p class="editor-note">My cat is very grumpy</p>
+    <!-- An example of nesting elements-->
+    <p>My cat is <strong>very</strong> grumpy.</p>
+    <!--
+    custom attributes can be set using the "data-*" and its corresponding DOM dataset.property to modify their shared name
+    according to where they are read or written.
+    -->
 
 </body>
 </html>
+<!--
+    A DOM is a set of programming APIs for documents(HTML, XML, etc...). This closely resembles the structure of the documents it models.
+    For example, this table from an HTML document:
+    ----------------------------------------
+    <table>
+        <tbody>
+            <tr>
+                <td>Shady Grove</td>
+                <td>Atlantis</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td>Vanilla</td>
+            </tr>
+        </tbody>
+    </table>
+    ----------------------------------------
+    would be represented in the DOM like this:
+
+                                  Table
+                                    |
+                             /            \
+                           <tr>           <tr>
+                        /       \        /     \
+                      <td>     <td>    <td>   <td>
+                        |       |       |       |
+                 "Shady Grove"  |  "Chocolate"  |
+                            "Atlantis"      "Vanilla"
+
+    Hence, the document object model has a logical structure like a tree. 
+-->

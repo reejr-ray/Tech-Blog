@@ -1,0 +1,26 @@
+﻿Each entry is a topic researched during coding session. Entry should look like:
+-----------------------
+Log DD/MM/YYYY:
+AVL Trees
+Test cases for servers
+AWS shenanigans
+-----------------------
+For ctrl-F ease of use: :)
+For each entry, a "%" denotes a very brief dive into the topic. a "!!" denotes a high priority topic.
+Might warrant more research later on. perentheses after are (i am a topic to research later)
+
+Log 7/14/2022:
+HTML Tags
+HTML attributes
+HTML attribute name/value pairs
+What happens when HTML tags are closed in wrong order? or not at all?
+Why HTML tags must be closed % (web parsers)
+custom attributes - how to declare them %
+HTML element dataset %
+Nesting elements
+DOM - what is it?
+DOM - how is it structured?
+DOM - how is it related to HTML / JS? %
+DOM - How to manipulate with JS % !! (React)
+How browsers work !! % 
+editing with vim % (cheat sheet)
